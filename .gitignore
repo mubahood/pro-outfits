@@ -1,0 +1,32 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/*.log
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Temp/debug files
+*.log
+/storage/framework/views/*.php
+/bootstrap/cache/*.php
