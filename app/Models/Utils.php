@@ -1302,7 +1302,7 @@ class Utils extends Model
 
 
 
-        if (!file_exists($params['source'])) {
+        if (!file_exists($params['source']) || is_dir($params['source'])) {
             $img = url('assets/images/logo.png');
             return $img;
         }
